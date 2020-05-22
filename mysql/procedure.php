@@ -1,0 +1,1 @@
+CREATE PROCEDURE `ppp`(IN `user` VARCHAR(50), OUT `bb` VARCHAR(12), OUT `tt` VARCHAR(50)) NOT DETERMINISTIC NO SQL SQL SECURITY DEFINER SELECT blood_group AS bb, tdate AS tt FROM transaction_history WHERE receiver_id = user
